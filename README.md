@@ -4,7 +4,13 @@ To imort this layer,
 
 ```
 cd ~/.emacs.d/private/
-https://github.com/kentakozuka/my-layer.git
+git clone https://github.com/kentakozuka/my-layer.git
 ```
 
-and add `my-layer` to `dotspacemacs-configuration-layers` in .spacemacs
+add `my-layer` to `dotspacemacs-configuration-layers` in .spacemacs
+then reload `.spacemacs`
+
+create `sample.mm` file and open it with spacemacs.
+
+if you hit `SPC m h w`,
+the `Hello, world!` will be inserted to the buffer.
