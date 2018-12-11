@@ -12,5 +12,4 @@ then reload `.spacemacs`
 
 create `sample.mm` file and open it with spacemacs.
 
-if you hit `SPC m h w`,
-the `Hello, world!` will be inserted to the buffer.
+if you hit `SPC m h w`, `"Hello, world!"` will be inserted to the buffer.
